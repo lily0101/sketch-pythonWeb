@@ -1,0 +1,1 @@
+UPLOAD_FOLDER = 'F:\graduateStudy\lab\drawing robot\毕设\simulator\pythonWeb\test\data'

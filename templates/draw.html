@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="utf-8"/>
+   <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  
+  <script type="text/javascript" src="/static/js/drawCurve.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/css/CSS.css">
+  
+</head>
+<body>
+<div class= "container">
+  <canvas id="canvas" weight= "800" height = "400"> </canvas>
+  <div id="select">
+      <label>画笔颜色：</label>
+        <select id="color">   
+          <option value="red">red</option>  
+          <option value="bule">blue</option>  
+          <option value="yellow">yellow</option>  
+          <option value="black">balck</option>  
+          <option value="#8B026B">purple</option> 
+        </select>
+      <label>画笔宽度：</label>
+        <select id="sel">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="4">4</option>
+          <option value="8">8</option>
+          <option value="16">16</option>
+          <option value="30">30</option>
+        </select>
+  </div>
+  <div id = "button">
+    <button onclick="record()">record</button>
+    <input type = "button" value= 'clean' onclick="clean()">
+  </div>
+</div>
+</body>
+</html>
